@@ -22,6 +22,24 @@ Fairchild A-10 simulation config.
 			<model type="int">4</model>
 		</rating>
 
+		<tags>
+			<tag>bomber</tag>
+			<tag>fairchild</tag>
+			<tag>1970s</tag>
+			<tag>1980s</tag>
+			<tag>1990s</tag>
+			<tag>2000s</tag>
+			<tag>2010s</tag>
+			<tag>gulfwar1</tag>
+			<tag>gulfwar2</tag>
+			<tag>hud</tag>
+			<tag>ifr</tag>
+			<tag>refuel</tag>
+			<tag>retractable-gear</tag>
+			<tag>jet</tag>
+			<tag>twin-engine</tag>
+		</tags>
+
 		<flight-model>yasim</flight-model>
 		<aero>A-10-yasim</aero>
 		<fuel-fraction>1.0</fuel-fraction>

@@ -1031,7 +1031,7 @@
 		<type>rotate</type>
 		<object-name>LUAileron</object-name>
 		<object-name>LAileronTrimTab</object-name>
-		<property>surface-positions/left-spoiler-pos-norm</property>
+		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>-60</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -1049,7 +1049,7 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>LLAileron</object-name>
-		<property>surface-positions/left-spoiler-pos-norm</property>
+		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>60</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -1068,7 +1068,7 @@
 		<type>rotate</type>
 		<object-name>RUAileron</object-name>
 		<object-name>RAileronTrimTab</object-name>
-		<property>surface-positions/right-spoiler-pos-norm</property>
+		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>60</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -1086,7 +1086,7 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>RLAileron</object-name>
-		<property>surface-positions/right-spoiler-pos-norm</property>
+		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>-60</factor>
 		<center>
 			<x-m>8.90</x-m>

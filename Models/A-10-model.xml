@@ -21,7 +21,7 @@
 		<object-name>FTank3</object-name>
 		<condition>
 			<equals>
-				<property>/sim/model/A-10/weapons/stations/station[3]/description</property>
+				<property>sim/model/A-10/weapons/stations/station[3]/description</property>
 				<value>tank-600-gals</value>
 			</equals>
 		</condition>
@@ -33,7 +33,7 @@
 		<object-name>FTank1</object-name>
 		<condition>
 			<equals>
-				<property>/sim/model/A-10/weapons/stations/station[5]/description</property>
+				<property>sim/model/A-10/weapons/stations/station[5]/description</property>
 				<value>tank-600-gals</value>
 			</equals>
 		</condition>
@@ -45,7 +45,7 @@
 		<object-name>FTank2</object-name>
 		<condition>
 			<equals>
-				<property>/sim/model/A-10/weapons/stations/station[7]/description</property>
+				<property>sim/model/A-10/weapons/stations/station[7]/description</property>
 				<value>tank-600-gals</value>
 			</equals>
 		</condition>
@@ -886,7 +886,7 @@
 		<type>translate</type>
 		<object-name>LIFlap-F</object-name>
 		<object-name>LIFlap-R</object-name>
-		<property>surface-positions/left-flap-pos-norm</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>0.70</factor>
 		<axis>
 			<x>1.00</x>
@@ -899,7 +899,7 @@
 		<type>rotate</type>
 		<object-name>LIFlap-F</object-name>
 		<object-name>LIFlap-R</object-name>
-		<property>surface-positions/left-flap-pos-norm</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>30</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -917,7 +917,7 @@
 		<type>translate</type>
 		<object-name>LOFlap-F</object-name>
 		<object-name>LOFlap-R</object-name>
-		<property>surface-positions/left-flap-pos-norm</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>0.60</factor>
 		<axis>
 			<x>1.00</x>
@@ -930,7 +930,7 @@
 		<type>rotate</type>
 		<object-name>LOFlap-F</object-name>
 		<object-name>LOFlap-R</object-name>
-		<property>surface-positions/left-flap-pos-norm</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>30</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -948,7 +948,7 @@
 		<type>translate</type>
 		<object-name>RIFlap-F</object-name>
 		<object-name>RIFlap-R</object-name>
-		<property>surface-positions/left-flap-pos-norm</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>0.70</factor>
 		<axis>
 			<x>1.00</x>
@@ -961,7 +961,7 @@
 		<type>rotate</type>
 		<object-name>RIFlap-F</object-name>
 		<object-name>RIFlap-R</object-name>
-		<property>surface-positions/left-flap-pos-norm</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>-30</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -979,7 +979,7 @@
 		<type>translate</type>
 		<object-name>ROFlap-F</object-name>
 		<object-name>ROFlap-R</object-name>
-		<property>surface-positions/left-flap-pos-norm</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>0.60</factor>
 		<axis>
 			<x>1.00</x>
@@ -992,7 +992,7 @@
 		<type>rotate</type>
 		<object-name>ROFlap-F</object-name>
 		<object-name>ROFlap-R</object-name>
-		<property>surface-positions/left-flap-pos-norm</property>
+		<property>surface-positions/flap-pos-norm</property>
 		<factor>-30</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -1031,7 +1031,7 @@
 		<type>rotate</type>
 		<object-name>LUAileron</object-name>
 		<object-name>LAileronTrimTab</object-name>
-		<property>surface-positions/left-spoiler-pos-norm</property>
+		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>-60</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -1049,7 +1049,7 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>LLAileron</object-name>
-		<property>surface-positions/left-spoiler-pos-norm</property>
+		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>60</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -1068,7 +1068,7 @@
 		<type>rotate</type>
 		<object-name>RUAileron</object-name>
 		<object-name>RAileronTrimTab</object-name>
-		<property>surface-positions/right-spoiler-pos-norm</property>
+		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>60</factor>
 		<center>
 			<x-m>8.90</x-m>
@@ -1086,7 +1086,7 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>RLAileron</object-name>
-		<property>surface-positions/right-spoiler-pos-norm</property>
+		<property>surface-positions/speedbrake-pos-norm</property>
 		<factor>-60</factor>
 		<center>
 			<x-m>8.90</x-m>
